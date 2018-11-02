@@ -1,0 +1,74 @@
+{
+  "rasa_nlu_data": {
+    "common_exemples": [
+      {
+        "text": "Hello",
+        "inteent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "inteent": "goodbye",
+        "entities": []
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "What's the time in Paris?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Hay",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the time in Canada?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Canada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "See you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What's the time Tunis?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Tunis",
+            "entity": "location"
+          }
+        ]
+      }
+    ]
+  }
+}
